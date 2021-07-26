@@ -4,7 +4,7 @@ const cors = require("cors");
 const { response } = require("express");
 const app = express();
 const pgp = require("pg-promise")(/*options*/);
-const db = pgp("postgres://tlek:tlek@localhost:5432/station");
+const db = pgp("postgres://postgres:postgres@localhost:5432/postgres");
 
 
 
